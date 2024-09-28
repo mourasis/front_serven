@@ -1,0 +1,62 @@
+# Sistema macOS
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependências
+node_modules/
+
+# Arquivos de configuração específicos de pacotes
+package-lock.json
+yarn.lock
+
+# Diretórios de build
+dist/
+build/
+
+# Pastas de cache
+.cache/
+.vscode/
+.idea/
+
+# Arquivos do EditorConfig e ESLint
+.eslintrc.js
+.editorconfig
+.browserslistrc
+
+# Docker
+docker-compose.yml
+dockerfile
+
+# Arquivos de ambiente e variáveis de configuração
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Diretórios ocultos
+*.swp
+*~
+
+# Configuração de bibliotecas de terceiros e IDEs
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Pasta pública e de configuração do Vite
+public/
+vite.config.js
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Excluir arquivos gerados pelo macOS
+**/.DS_Store
+
